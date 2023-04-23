@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestDatabase-20230421010827" tests="5" file=".py" time="0.201" timestamp="2023-04-21T01:08:27" failures="0" errors="0" skipped="0">
+	<testcase classname="TestDatabase" name="test_dimcurrency_currency_name_verify_max_length" time="0.102" timestamp="2023-04-21T01:08:27" file="checker_pymssql_test.py" line="34">
+		<system-out><![CDATA[Percentage of records with length less than 40, 0.0%
+test_dimcurrency_currency_name_verify_max_length: True
+]]></system-out>
+	</testcase>
+	<testcase classname="TestDatabase" name="test_dimgeography_check_completeness_unique_countries_list" time="0.021" timestamp="2023-04-21T01:08:27" file="checker_pymssql_test.py" line="24">
+		<system-out><![CDATA[Percentage of records with allowed values (['Australia', 'Canada', 'France', 'Germany', 'United Kingdom', 'United States']), 0.0%
+test_dimgeography_check_completeness_unique_countries_list: True
+]]></system-out>
+	</testcase>
+	<testcase classname="TestDatabase" name="test_dimgeography_check_table_is_not_empty" time="0.018" timestamp="2023-04-21T01:08:27" file="checker_pymssql_test.py" line="17">
+		<system-out><![CDATA[test_dimgeography_check_table_is_not_empty: True
+]]></system-out>
+	</testcase>
+	<testcase classname="TestDatabase" name="test_factfinance_check_average_amount" time="0.030" timestamp="2023-04-21T01:08:27" file="checker_pymssql_test.py" line="42">
+		<system-out><![CDATA[test_factfinance_check_average_amount: True
+]]></system-out>
+	</testcase>
+	<testcase classname="TestDatabase" name="test_factfinance_check_min_max" time="0.030" timestamp="2023-04-21T01:08:27" file="checker_pymssql_test.py" line="49"/>
+</testsuite>
