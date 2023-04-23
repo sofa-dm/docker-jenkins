@@ -12,7 +12,7 @@ class DBChecker:
         self.cnn = pymssql.connect(self.server, self.username, self.password, self.database)
         self.cursor = self.cnn.cursor()
 
-
+    # func
     def select_query(self, query):
         self.cursor.execute(query)
         return self.cursor.fetchall()
